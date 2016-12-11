@@ -1,38 +1,126 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
 <head>
-<meta charset="utf-8">
-<title>練習</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="./css/bootstrap.min.css" rel="stylesheet">
-<script src="./js/jquery-3.1.1.min.js"></script>
-<script src="./js/bootstrap.js"></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="portfolio">
+    <meta name="author" content="Stanley">
+
+    <title>It's all about Stanley!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body>
-<div class="container-fluid">
-	<div class="row">
-	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		<img src="./img/como.jpg" class="img-responsive" alt="美麗的義大利">
-	</div>
-	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		<div class="panel panel-primary">
-			<div class="panel-heading">
-				<img src="./img/title.jpg" class="img-responsive" alt="美麗的義大利">
-			</div>
-			<div class="panel-body">
-				<h4><strong>美麗的義大利 米蘭祕境 Como Lake</strong></h4>
-				位於北義大利，鄰近義大利和瑞士交界處，美麗的人字型湖，在阿爾卑斯山麓，素有義大利最美麗的湖泊之稱。早從羅馬時期，科莫湖就是貴族和有錢人退隱時的居所，因此沿湖建有許多別墅和王宮。時至今日，這裡又成了時尚名人設置豪宅的地點，如歌星瑪丹娜、影星喬治柯隆尼、時裝設計大師詹尼凡賽斯、巴西足球名將羅納多、動作巨星席威斯史塔龍、英國維京集團創辦人理查布蘭森等。Como Lake 的湖畔小鎮中包含 : Como , Bellagio , Menaggio , Varenna , Lecco 
-			</div>
-			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=0bkp6XDUNVE"></iframe>
-			</div>
-			<a class="btn btn-success btn-lg btn-block glyphicon glyphicon-thumbs-up" href="http://pinkpig24.pixnet.net/blog/post/313016675-como%EF%BD%9E%E7%BE%A9%E5%A4%A7%E5%88%A9%E6%9C%80%E7%BE%8E%E7%9A%84%E6%B9%96%EF%BC%9F%EF%BD%9Ethe-most-beautiful-lake-in"  role="button" target="_blank">&nbsp;相關介紹</a>
-			<a class="btn btn-danger btn-lg btn-block glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=jvMw-CrmWto" role="button" target="_blank">&nbsp;其他相關影片</a>
-		</div>
-	</div>
-</div>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Stanley</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">關於我</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">作品集</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">聯絡</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Scrolling Nav</h1>
+                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
+                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Services Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
+
 </html>
