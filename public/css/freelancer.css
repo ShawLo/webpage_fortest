@@ -51,18 +51,18 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: #FFCA28;
 }
 hr.star-light:after {
-  background-color: #2196F3;
-  color: white;
+  background-color: #FFCA28;
+  color: #212121;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #FFCA28;
 }
 hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
+  background-color: #FFCA28;
+  color: #212121;
 }
 .img-centered {
   margin: 0 auto;
@@ -130,7 +130,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #FFCA28;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -138,14 +138,14 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #18BC9C;
+  color: #212121;
+  background: #FFCA28;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #18BC9C;
+  color: #212121;
+  background: #FFCA28;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -187,9 +187,10 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
-  color: white;
+  background: white;
+  color: #212121;
 }
+section.connect,
 section.projects {
   background: #2196F3;
   color: white;
@@ -213,7 +214,7 @@ section.projects {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background: rgba(255, 255, 255, 0.5);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -233,7 +234,7 @@ section.projects {
   text-align: center;
   top: 50%;
   margin-top: -12px;
-  color: white;
+  color: #FFCA28;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
@@ -300,21 +301,22 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 footer {
-  color: white;
+  color: #212121;
 }
 footer h3 {
   margin-bottom: 30px;
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: white;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #1976D2;
+  color: white;
 }
 .btn-outline {
   color: white;
@@ -375,9 +377,9 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-success {
-  color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  color: #212121;
+  background-color: #FFCA28;
+  border-color: #FFCA28;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -385,9 +387,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  color: #212121;
+  background-color: #FFE082;
+  border-color: #FFE082;
 }
 .btn-success:active,
 .btn-success.active,
