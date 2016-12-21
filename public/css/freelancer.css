@@ -190,6 +190,10 @@ section.success {
   background: #18BC9C;
   color: white;
 }
+section.projects {
+  background: #2196F3;
+  color: white;
+}
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
