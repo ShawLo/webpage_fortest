@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #FF8F00;
   outline: none;
 }
 h1,
@@ -155,9 +155,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
-  color: white;
-  border-color: #18BC9C;
+  background-color: #FFCA28;
+  color: #212121;
+  border-color: #FFCA28;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -295,7 +295,7 @@ section.projects {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #FFCA28;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -319,7 +319,7 @@ footer .footer-below {
   color: white;
 }
 .btn-outline {
-  color: white;
+  color: #42A5F5;
   font-size: 20px;
   border: solid 2px white;
   background: transparent;
@@ -330,8 +330,8 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
-  background: white;
+  color: #FFCA28;
+  background: #212121;
   border: solid 2px white;
 }
 .btn-primary {
@@ -411,11 +411,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #FFE082;
+  border-color: #FFE082;
 }
 .btn-success .badge {
-  color: #18BC9C;
+  color: #FFCA28;
   background-color: white;
 }
 .btn-social {
