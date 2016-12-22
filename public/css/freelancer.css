@@ -192,8 +192,8 @@ section.success {
 }
 section.connect,
 section.projects {
-  background: #2196F3;
-  color: white;
+  background: #BBDEFB;
+  color: #212121;
 }
 @media (max-width: 767px) {
   section {
