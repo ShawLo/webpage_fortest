@@ -10,6 +10,8 @@ The website was created by and is maintained by **[Stanley Lo](https://selfprofi
 
 * https://github.com/ShawLo
 
+and provided via [Google Firebase Hosting](https://firebase.google.com/docs/hosting/) 
+
 ## Style & Design
 The website fits [Google Material Design](https://material.io/guidelines/) concepts.
 
